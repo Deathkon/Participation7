@@ -41,9 +41,6 @@ public class Recycler extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void callDialog() {
-    }
-
     private List<Item> fillTheList() {
         List<Item> itemList = new ArrayList<>();
         itemList.add(new Item(R.drawable.p2, "Morgan Stanley", "INS", 26, 97));
